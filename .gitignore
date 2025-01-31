@@ -169,3 +169,38 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+#claude suggestion 
+# Data
+data/raw/*
+data/processed/*
+data/interim/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# OS
+.DS_Store

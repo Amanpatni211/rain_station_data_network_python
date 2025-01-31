@@ -1,0 +1,22 @@
+name: rain_station_py
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scipy
+  - networkx
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - pytest
+  - black  # for code formatting
+  - flake8  # for code linting
+  - pyyaml  # for config files
+  - pip
+  - pip:
+    - notebook
