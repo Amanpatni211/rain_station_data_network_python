@@ -77,8 +77,3 @@ Full dependencies are listed in `environment.yml`.
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details
 
-1. Customize any specific parts of this README?
-2. Add more detailed setup instructions?
-3. Include specific details about the rain station data format?
-
-Let me know what modifications you'd like to make!
