@@ -1,0 +1,39 @@
+I have created a GitHub repository for analyzing rain station data networks. Here's my current setup:
+
+Project: rain_station_data_network_python
+Structure:
+- Using conda environment (rain_station_py)
+- Data format: CSV files
+- Following organized directory structure:
+
+rain_station_data_network_python/
+├── data/              # Data files
+│   ├── raw/          # Original data
+│   ├── processed/    # Final, cleaned data
+│   ├── interim/      # Intermediate data
+│   └── external/     # External data
+├── notebooks/        # Jupyter notebooks
+│   ├── exploratory/  # For exploration
+│   └── reports/      # Clean notebooks
+├── src/rain_station/ # Source code
+│   ├── data/         # Data processing
+│   ├── models/       # Analysis code
+│   ├── visualization/# Plotting
+│   └── utils/        # Helper functions
+├── tests/           
+├── docs/            
+└── configs/          
+
+Environment includes:
+- Python packages: pandas, numpy, scipy, networkx, matplotlib, seaborn, jupyter
+- Development tools: pytest, black, flake8, pyyaml
+
+Repository is set up with:
+- Proper .gitignore
+- MIT License
+- Comprehensive README.md
+- environment.yml for reproducibility
+
+I'm coming from a background of mainly using Jupyter notebooks and want to develop more organized, reproducible workflows. I have a collaborator who will work on a remote server.
+
+What should I work on next to develop this project further?
