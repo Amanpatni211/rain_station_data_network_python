@@ -5,7 +5,6 @@ A Python-based analysis project for studying rainfall station networks. This pro
 
 ## Project Structure
 
-```
 rain_station_data_network_python/
 ├── data/              # Data files
 │   ├── raw/          # Original, immutable data
@@ -23,7 +22,7 @@ rain_station_data_network_python/
 ├── tests/           # Unit tests
 ├── docs/            # Documentation
 └── configs/         # Configuration files
-```
+
 
 ## Setup Instructions
 
@@ -78,15 +77,6 @@ Full dependencies are listed in `environment.yml`.
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details
 
-## Contact
-YOUR_NAME - [Your Email or GitHub Profile]
-
-## Acknowledgments
-- List any references or data sources used
-- Credit any collaborators or institutions
-```
-
-Would you like me to:
 1. Customize any specific parts of this README?
 2. Add more detailed setup instructions?
 3. Include specific details about the rain station data format?
