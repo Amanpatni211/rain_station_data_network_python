@@ -23,7 +23,21 @@ rain_station_data_network_python/
 ├── docs/            # Documentation
 └── configs/         # Configuration files
 
+##note that data folder is empty , hence some different arrangements are there
+# Rain Station Data Network Analysis
 
+## Data Setup
+This project expects data to be organized in the following structure:
+/path/to/data/
+├── raw/                 # Raw station data files
+├── interim_Data/        # Processed station data
+└── processed/           # Final analysis results
+The data directory location can be configured in `config.yaml`.
+
+### Setting Up Data
+1. Download the data from [source URL]
+2. Extract it to a directory
+3. Update `config.yaml` with the path to your data directory
 ## Setup Instructions
 
 ### Prerequisites

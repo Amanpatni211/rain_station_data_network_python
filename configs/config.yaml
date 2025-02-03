@@ -1,0 +1,5 @@
+paths:
+  data_root: "../../data"  # Goes up from Projects/rain_station... to Networks_rain_project/data
+  raw_data: "../../data/raw"
+  interim_data: "../../data/interim_Data"
+  processed_data: "../../data/processed"
